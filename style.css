@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fdfaf2; /* 類似宣紙的米白色 */
+    font-family: 'KaiTi', 'STKaiti', serif; /* 優先使用楷體 */
+}
+
+h1 {
+    color: #333;
+}
+
+canvas {
+    background-color: #fff;
+    border: 3px solid #555;
+}
+
+#controls {
+    margin-top: 20px;
+    color: #444;
+    text-align: center;
+}
